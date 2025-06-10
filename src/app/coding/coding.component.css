@@ -1,0 +1,44 @@
+.coding-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.coding-tiles {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.tile {
+  
+  border-radius: 10px;
+  padding: 20px;
+  width: 180px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px grey;
+  transition: transform 0.3s ease;
+}
+
+.tile:hover {
+  transform: scale(1.05);
+}
+
+.tile img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.tile p {
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+}

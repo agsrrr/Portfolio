@@ -1,0 +1,61 @@
+.exp-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.exp-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tile {
+  
+  width: 320px;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+}
+
+.tile img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.tile-text h3 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: black;
+}
+
+.tile-text h4 {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: black;
+}
+
+.timeline {
+  font-size: 0.9rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.tile-text p {
+  color: black;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

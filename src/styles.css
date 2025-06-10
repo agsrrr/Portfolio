@@ -1,0 +1,17 @@
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Background Video Styling */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -10;
+  opacity: 0.4;
+  pointer-events: none;
+}
